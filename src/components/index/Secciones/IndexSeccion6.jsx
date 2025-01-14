@@ -26,7 +26,7 @@ const Nosotros = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className={`${styles.section} ${styles.fadeInSection}`}>
+    <section id="nosotros" ref={sectionRef} className={`${styles.section} ${styles.fadeInSection}`}>
       <div className={styles.content}>
         <div className={styles.textGroup}>
           <img
